@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animais - Harmonia Sonora</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./assets/images/favicon-dog.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <section class="tela ativa">
+            <a href="./index.html" class="voltar">Voltar</a>
+            <h2>SONS DE ANIMAIS</h2>
+            <img id="imagem-animais" class="imagem"src="./assets/images/animal-cachorro.png"alt="Cachorro">
+
+            <div class="teclado">
+                <button class="tecla" data-som="animal-cachorro" data-imagem="./assets/images/animal-cachorro.png" data-nome="Cachorro" onclick="tocarSom(this, 'imagem-animais')">Cachorro</button>
+                <button class="tecla" data-som="animal-gato" data-imagem="./assets/images/animal-gato.png" data-nome="Gato" onclick="tocarSom(this, 'imagem-animais')">Gato</button>
+                <button class="tecla" data-som="animal-leao" data-imagem="./assets/images/animal-leao.png" data-nome="Leão" onclick="tocarSom(this, 'imagem-animais')">Leão</button>
+                <button class="tecla" data-som="animal-cavalo" data-imagem="./assets/images/animal-cavalo.png" data-nome="Cavalo" onclick="tocarSom(this, 'imagem-animais')">Cavalo</button>
+                <button class="tecla" data-som="animal-porco" data-imagem="./assets/images/animal-porco.png" data-nome="Porco" onclick="tocarSom(this, 'imagem-animais')">Porco</button>
+                <button class="tecla" data-som="animal-gorila" data-imagem="./assets/images/animal-gorila.png" data-nome="Gorila" onclick="tocarSom(this, 'imagem-animais')">Gorila</button>
+            </div>
+
+        </section>
+    </main>
+    <script src="./script/app.js"></script>
+</body>
+</html>

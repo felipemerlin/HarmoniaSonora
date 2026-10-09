@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instrumentos - Harmonia Sonora</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./assets/images/favicon-violino.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <section class="tela ativa">
+            <a href="./index.html" class="voltar">Voltar</a>
+            <h2>SONS DE INSTRUMENTOS</h2>
+            <img id="imagem-instrumentos"class="imagem"src="./assets/images/instrumento-piano.png"alt="Piano">
+
+            <div class="teclado">
+                <button class="tecla" data-som="instrumento-piano" data-imagem="./assets/images/instrumento-piano.png" data-nome="Piano" onclick="tocarSom(this, 'imagem-instrumentos')">Piano</button>
+
+                <button class="tecla" data-som="instrumento-violao" data-imagem="./assets/images/instrumento-violao.png" data-nome="Violão" onclick="tocarSom(this, 'imagem-instrumentos')">Violão</button>
+
+                <button class="tecla" data-som="instrumento-bateria" data-imagem="./assets/images/instrumento-bateria.png" data-nome="Bateria" onclick="tocarSom(this, 'imagem-instrumentos')">Bateria</button>
+
+                <button class="tecla" data-som="instrumento-trompete" data-imagem="./assets/images/instrumento-trompete.png" data-nome="Trompete" onclick="tocarSom(this, 'imagem-instrumentos')">Trompete</button>
+
+                <button class="tecla" data-som="instrumento-sanfona" data-imagem="./assets/images/instrumento-sanfona.png" data-nome="Sanfona" onclick="tocarSom(this, 'imagem-instrumentos')">Sanfona</button>
+
+                <button class="tecla" data-som="instrumento-violino" data-imagem="./assets/images/instrumento-violino.png" data-nome="Violino" onclick="tocarSom(this, 'imagem-instrumentos')">Violino</button>
+            </div>
+
+        </section>
+    </main>
+    <script src="./script/app.js"></script>
+</body>
+</html>
